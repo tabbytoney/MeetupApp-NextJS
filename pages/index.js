@@ -1,4 +1,4 @@
-import MeetupList from '../components/meetups/MeetupList'
+import MeetupList from '../components/meetups/MeetupList';
 
 const DUMMY_MEETUPS = [
   {
@@ -18,15 +18,16 @@ const DUMMY_MEETUPS = [
   {
     id: 'm3',
     title: 'Third Meetup',
-    image: 'https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?b=1&k=20&m=517188688&s=170667a&w=0&h=AF2jDsSkcse_G3a9BCQA22LDhezmxIUZKx5vRh3aFDI=',
+    image:
+      'https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?b=1&k=20&m=517188688&s=170667a&w=0&h=AF2jDsSkcse_G3a9BCQA22LDhezmxIUZKx5vRh3aFDI=',
     address: 'Clouds, Not A City Address',
     description: 'The third meetup'
   }
-]
+];
 
 function Homepage() {
   // Need to return the list of meetups from the meetups property in MeetupList
-  return <MeetupList meetups={DUMMY_MEETUPS} />
+  return <MeetupList meetups={DUMMY_MEETUPS} />;
 }
 
 export default Homepage;
